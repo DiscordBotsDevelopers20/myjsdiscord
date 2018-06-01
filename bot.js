@@ -3,6 +3,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    client.user.setGame('-HELP | I See You !')
+
 });
 
 client.on('message', message => {
